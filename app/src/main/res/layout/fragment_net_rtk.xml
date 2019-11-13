@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP地址"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etip"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="59.110.123.145"
+
+            />
+
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="网络RTK===RtkSetActivity2"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_check_rtk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0-6. 检测 RTK 是否启动使用"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <Button
+        android:id="@+id/btn_start_rtk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.启用RTK模块"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_set_rtk_source2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.设置RTK信号源-网络rtk"
+        android:textColor="@android:color/holo_orange_dark" />
+
+
+    <Button
+        android:id="@+id/btn_set_net2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. 设置网络账号"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <Button
+        android:id="@+id/btn_start_net_service2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. 启用网络服务"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <Button
+        android:id="@+id/btn_set_coordinete2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. 设置RTK网络服务的坐标系"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <Button
+        android:id="@+id/btn_live_netrtk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. 激活网络RTK"
+        android:textColor="@android:color/holo_orange_dark" />
+
+
+    <Button
+        android:id="@+id/btn_check_account2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="75. 检测账户是否可用"
+        android:textColor="@android:color/holo_orange_dark" />
+
+
+</LinearLayout>

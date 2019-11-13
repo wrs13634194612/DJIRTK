@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="splash_activity_status_bar_color">#15AEFF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#80000000</color>
+
+
+    <color name="title_dark">#212121</color>
+    <color name="light_gray">#10000000</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="a1">#FF0B00</color>
+    <color name="a2">#FF7300</color>
+    <color name="a3">#FDFD0D</color>
+    <color name="a4">#43FE0F</color>
+    <color name="a5">#35FFEE</color>
+    <color name="a6">#4A8AF4</color>
+    <color name="a7">#CD01FF</color>
+
+</resources>
